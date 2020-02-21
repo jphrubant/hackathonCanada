@@ -1,1 +1,14 @@
 <h1>Sports</h1>
+
+{{#each sports}}
+    <div>
+        <h2>{{this.name}}</h2>
+        <div>
+            <ul>
+                <li>{{this.gold}}</li>
+                <li>{{this.silver}}</li>
+                <li>{{this.bronze}}</li>
+            </ul>
+        </div>
+    </div>
+{{/each}}
