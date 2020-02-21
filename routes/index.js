@@ -44,7 +44,7 @@ router.get('/sports', function(req, res, next) {
     .then( (response) => {
       res.render('index', {sports:response.data});
     })
-    .catch((err) => {
+    .catch((err) => 
       console.log(err)
     });
 
