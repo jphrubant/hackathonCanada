@@ -1,21 +1,31 @@
 var express = require('express');
 var router = express.Router();
+const axios = require('axios');
 
-/* GET home page. */
-
-router.get('/third', function(req, res, next) {
-  res.render('third', { title: 'Express' });
+/* Get Years page. */
+router.get('/years', function(req, res, next) {
+  res.render('years');
 });
 
-
-/* Get second page */
-router.get('/second', function(req, res, next) {
-  res.render('second', { title: 'Express' });
+/* Get Sports page */
+router.get('/sports', function(req, res, next) {
+  res.render('sports');
 });
 
-//*Get third page */
+/* Get Atheletes page */
+router.get('/athletes', function(req, res, next) {
+  res.render('athletes');
+});
+
+//*Get Homepage */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  axios.get('https://canadajson.herokuapp.com/sports')
+    .then( (response) => {
+      res.render('index', {data:response.data});
+    })
+    .catch((err) => {
+      console.log(err)
+    })
 });
 
 
