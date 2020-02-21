@@ -48,15 +48,36 @@ table {
 /* CSS START */
 
 body {
-  font-family: "HelveticaNeue";
-  background-color: ivory;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fffbf0;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+  color: white;
 }
 
 nav{
-  background-color: #92221f;
   width: 100%;
+  padding-top: 2%;
+  background-color: #92221f;
+  font-size: 30px;
+  letter-spacing: 0.57px;
+  text-align: center;
+  height: 40px;
+}
+
+.hero-div{
+  
+}
+
+.hero-p{
+  font-family: 'Exo 2';
+  font-weight: bold;
+}
+
+span{
+  background-color: #1b669a;
 }
