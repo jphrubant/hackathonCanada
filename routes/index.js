@@ -8,10 +8,12 @@ router.get('/third', function(req, res, next) {
 });
 
 
+/* Get second page */
 router.get('/second', function(req, res, next) {
   res.render('second', { title: 'Express' });
 });
 
+//*Get third page */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
