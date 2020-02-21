@@ -1,7 +1,6 @@
 var express = require('express');
 var axios = require('axios');
 var router = express.Router();
-const axios = require('axios');
 
 /* Get Atheletes page */
 router.get('/athletes', function(req, res, next) {
@@ -41,11 +40,11 @@ router.get('/sports', function(req, res, next) {
       console.log(err)
     });
 
-  axios.get('https://canadajson.herokuapp.com/sports')
+    axios.get('https://canadajson.herokuapp.com/sports')
     .then( (response) => {
       res.render('index', {sports:response.data});
     })
-    .catch((err) => 
+    .catch((err) => {
       console.log(err)
     });
 
