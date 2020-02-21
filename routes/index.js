@@ -1,4 +1,5 @@
 var express = require('express');
+var axios = require('axios');
 var router = express.Router();
 const axios = require('axios');
 
@@ -112,7 +113,5 @@ router.get('/', function(req, res, next) {
       console.log(err)
     });
 });
-
-
 
 module.exports = router;
