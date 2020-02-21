@@ -1,11 +1,25 @@
 <h1>Years</h1>
-
-{{#each years}}
-    <div >
-        {{this.year}}
-        {{this.city}}
-        {{this.gold}}
-        {{this.silver}}
-        {{this.bronze}}
+<div class="card">
+    {{#each years}}
+    <div>
+        <div class="year">{{this.year}}</div>
+        <div class="city">
+            {{this.city}}
+        </div>
+        <div class="medals">
+            <div class="medal">
+                <div class="gold medal-icon"></div>
+                <div>{{this.gold}}</div>
+            </div>
+            <div class="medal">
+                <div class="silver medal-icon"></div>
+                <div>{{this.silver}}</div>
+            </div>
+            <div class="medal">
+                <div class="bronze medal-icon"></div>
+                <div>{{this.bronze}}</div>
+            </div>
+        </div>
     </div>
-{{/each}}
+    {{/each}}
+</div>
