@@ -1,18 +1,44 @@
 <div class="main">
     <div class="hero-div">
-    <p class="hero-p"><span>winter</span> is our time but 2020 we rock in summer</p>
+        <p class="hero-p"><span class="blue-span">winter</span> 
+        is our time but 2020 we rock in <span class="gold-span">summer</span></p>
     </div>
+
+
+    <div class="podium-div">
+
+        {{!-- <div class=‘tableauPlaceholder’ id=‘viz1582292352398’ style=‘position: relative’><noscript><a href=‘#’><img
+                        alt=' '
+                        src=‘https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;Goldmedals_15822923226530&#47;Sheet1&#47;1_rss.png’
+                        style=‘border: none’ /></a></noscript><object class=‘tableauViz’ style=‘display:none;’>
+                <param name=‘host_url’ value=‘https%3A%2F%2Fpublic.tableau.com%2F’ />
+                <param name=‘embed_code_version’ value=‘3’ />
+                <param name=‘site_root’ value=‘’ />
+                <param name=‘name’ value=‘Goldmedals_15822923226530&#47;Sheet1’ />
+                <param name=‘tabs’ value=‘no’ />
+                <param name=‘toolbar’ value=‘yes’ />
+                <param name=‘static_image’
+                    value=‘https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;Goldmedals_15822923226530&#47;Sheet1&#47;1.png’ />
+                <param name=‘animate_transition’ value=‘yes’ />
+                <param name=‘display_static_image’ value=‘yes’ />
+                <param name=‘display_spinner’ value=‘yes’ />
+                <param name=‘display_overlay’ value=‘yes’ />
+                <param name=‘display_count’ value=‘yes’ />
+                <param name=‘filter’ value=‘publish=yes’ /></object>
+                </div>
+    </div> --}}
+
 
     <div class="champion-div">
         <h3>our champions</h3>
-            <div >
-                <img src="/stylesheets/qTvJqmux_400x400.png" alt="logo">
-                <img src="/stylesheets/qTvJqmux_400x400.png" alt="logo">
-                <img src="/stylesheets/qTvJqmux_400x400.png" alt="logo">
-            </div>
+        <div>
+            <img class="img" src="/stylesheets/qTvJqmux_400x400.png" alt="logo">
+            <img class="img" src="/stylesheets/qTvJqmux_400x400.png" alt="logo">
+            <img class="img"src="/stylesheets/qTvJqmux_400x400.png" alt="logo">
+        </div>
     </div>
 
-    <a class="cta" href="/athletes">See More Champions</a>
+    <a class="cta" href="/athletes">Meet them</a>
 </div>
 
 
@@ -25,4 +51,4 @@
 <a href="/sports">Sports</a>
 <a href="/years">Years</a>
 
-<p>In {{sports.0.name}} Canada worn  {{sports.0.gold}} medals</p>
+<p>In {{sports.0.name}} Canada worn {{sports.0.gold}} medals</p>

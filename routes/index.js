@@ -96,21 +96,21 @@ router.get('/', function(req, res, next) {
       console.log(err)
     });
 
-  axios.get('https://canadajson.herokuapp.com/sports')
-    .then( (response) => {
-      res.render('index', {sports:response.data});
-    })
-    .catch((err) => {
-      console.log(err)
-    });
+  // axios.get('https://canadajson.herokuapp.com/sports')
+  //   .then( (response) => {
+  //     res.render('index', {sports:response.data});
+  //   })
+  //   .catch((err) => {
+  //     console.log(err)
+  //   });
 
-    axios.get('https://canadajson.herokuapp.com/years')
-    .then( (response) => {
-      res.render('index', {years:response.data});
-    })
-    .catch((err) => {
-      console.log(err)
-    });
+  //   axios.get('https://canadajson.herokuapp.com/years')
+  //   .then( (response) => {
+  //     res.render('index', {years:response.data});
+  //   })
+  //   .catch((err) => {
+  //     console.log(err)
+  //   });
 });
 
 module.exports = router;
