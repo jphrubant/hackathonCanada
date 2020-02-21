@@ -115,7 +115,7 @@ nav{
   padding: 1.5px;
 }
 
-/* PRIMARY */
+/* INDEX */
 
 h3{
   font-family: "Helvetica";
@@ -148,8 +148,76 @@ h3{
   width: 40%;
 }
 
+/* SPORTS */
+
+.sports-title{
+  padding: 12.5%;
+}
 
 
-/* SECONDARY */
+h1{
+  font-size: 25px;
+  font-weight: bold;
+}
 
-/* TERTIARY */
+.medal-div{
+  background-color: white;
+  width: 127px;
+  margin: 20px;
+}
+
+.medal-title{
+  font-family: "Exo 2";
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #7c2163;
+  width: 117px;
+  height: 40px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.medal-count{
+  width: 127px;
+  height: 23px;
+  font-family: "Exo 2";
+  font-size: 19px;
+  letter-spacing: 0.36px;
+  color: #666666;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+
+/* MEDALS */
+
+.medals {
+  display: flex;
+  flex-direction: column;
+}
+.medal {
+  font-size: 19px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+.medal-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.gold {
+  background-color: #FCC21B;
+}
+.silver {
+  background-color: #CECED2;
+}
+.bronze {
+  background-color: #F79329;
+}
+.medal {
+  display: flex;
+}
