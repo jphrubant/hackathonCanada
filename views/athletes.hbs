@@ -1,11 +1,26 @@
 <h1>Athletes</h1>
-
-{{#each athletes}}
-<div>
-    {{this.name}}
-    {{this.sport}}
-    {{this.gold}}
-    {{this.silver}}
-    {{this.bronze}}
+<div id="athlete-container">
+    {{#each athletes}}
+    <div class="card">
+        <div class="color-highlight"></div>
+        <div class="info">
+            <div class="athlete-name">{{this.name}}</div>
+            <div>{{this.sport}}</div>
+        </div>
+        <div class="medals">
+            <div class="medal">
+                <div class="gold medal-icon"></div>
+                <div>{{this.gold}}</div>
+            </div>
+            <div class="medal">
+                <div class="silver medal-icon"></div>
+                <div>{{this.silver}}</div>
+            </div>
+            <div class="medal">
+                <div class="bronze medal-icon"></div>
+                <div>{{this.bronze}}</div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
 </div>
-{{/each}}
