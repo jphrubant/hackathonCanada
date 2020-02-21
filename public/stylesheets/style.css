@@ -65,7 +65,7 @@ a {
   color: white;
 }
 
-nav{
+header{
   width: 100%;
   background-color: #92221f;
   font-size: 30px;
@@ -74,6 +74,18 @@ nav{
   height: 60px;
   padding-top: 5px;
   padding-bottom: 2px;;
+}
+
+nav{
+  margin-top: 3%;
+  
+}
+
+.nav-anchor{
+  padding: 5px;
+  margin: 5px;
+  background-color: #a32317;
+  font-size: 25px;
 }
 
 .nav-tagline{
@@ -151,9 +163,8 @@ h3{
 /* SPORTS */
 
 .sports-title{
-  padding: 12.5%;
+  padding: 5%;
 }
-
 
 h1{
   font-size: 25px;
