@@ -65,7 +65,7 @@ a {
   color: white;
 }
 
-nav{
+header{
   width: 100%;
   background-color: #92221f;
   font-size: 30px;
@@ -74,6 +74,18 @@ nav{
   height: 60px;
   padding-top: 5px;
   padding-bottom: 2px;;
+}
+
+nav{
+  margin-top: 3%;
+  
+}
+
+.nav-anchor{
+  padding: 5px;
+  margin: 5px;
+  background-color: #a32317;
+  font-size: 25px;
 }
 
 .nav-tagline{
@@ -115,7 +127,7 @@ nav{
   padding: 1.5px;
 }
 
-/* PRIMARY */
+/* INDEX */
 
 h3{
   font-family: "Helvetica";
@@ -148,8 +160,162 @@ h3{
   width: 40%;
 }
 
+/* SPORTS */
+
+.sports-title{
+  padding: 5%;
+}
+
+h1{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.medal-div{
+  background-color: white;
+  width: 127px;
+  margin: 20px;
+}
+
+.medal-title{
+  font-family: "Exo 2";
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #7c2163;
+  width: 117px;
+  height: 40px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.medal-count{
+  width: 127px;
+  height: 23px;
+  font-family: "Exo 2";
+  font-size: 19px;
+  letter-spacing: 0.36px;
+  color: #666666;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
 
 
-/* SECONDARY */
+/* MEDALS */
 
-/* TERTIARY */
+.medals {
+  display: flex;
+  flex-direction: column;
+}
+.medal {
+  font-size: 19px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+.medal-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.gold {
+  background-color: #FCC21B;
+}
+.silver {
+  background-color: #CECED2;
+}
+.bronze {
+  background-color: #F79329;
+}
+.medal {
+  display: flex;
+}
+
+.card {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  max-width: 700px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.color-highlight {
+  width: 20px;
+  height: 100%;
+  background-color: #7C2163;
+}
+
+.athlete-name {
+  font-weight: bold;
+}
+
+.info {
+   font-size: 19px;
+}
+
+.medals {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #666666;
+}
+
+.medal {
+  font-size: 19px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.medal-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+
+.gold {
+  background-color: #FCC21B;
+}
+
+.silver {
+  background-color: #CECED2;
+}
+
+.bronze {
+  background-color: #F79329;
+}
+
+.medal {
+  display: flex;
+}
+
+.year {
+  width: 78px;
+  font-size: 21px;
+  height: 100%;
+  background-color: #7C2163;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.city {
+  font-size: 21px;
+  font-weight: bold;
+}
+#athlete-container{
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}

@@ -1,14 +1,25 @@
-<h1>Sports</h1>
+<div class="main">
 
+<div class="sports-title">
+    <h1>Our best sports</h1>
+</div>
+
+<div class="medal-wrap">
 {{#each sports}}
-    <div>
-        <h2>{{this.name}}</h2>
+    <div class="medal-div">
+        <h2 class="medal-title">{{this.name}}</h2>
         <div>
             <ul>
-                <li>{{this.gold}}</li>
-                <li>{{this.silver}}</li>
-                <li>{{this.bronze}}</li>
+                <li><div class="medal"><div class="gold medal-icon"></div><div>{{this.gold}}</div></div></li>
+                <li><div class="medal"><div class="silver medal-icon"></div><div>{{this.silver}}</div></div></li>
+                <li> <div class="medal"><div class="bronze medal-icon"></div><div>{{this.bronze}}</div></div></li>
             </ul>
         </div>
     </div>
+
 {{/each}}
+</div>
+
+</div>
+
+
