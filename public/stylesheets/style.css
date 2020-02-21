@@ -232,3 +232,90 @@ h1{
 .medal {
   display: flex;
 }
+
+.card {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  max-width: 700px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.color-highlight {
+  width: 20px;
+  height: 100%;
+  background-color: #7C2163;
+}
+
+.athlete-name {
+  font-weight: bold;
+}
+
+.info {
+   font-size: 19px;
+}
+
+.medals {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #666666;
+}
+
+.medal {
+  font-size: 19px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.medal-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+
+.gold {
+  background-color: #FCC21B;
+}
+
+.silver {
+  background-color: #CECED2;
+}
+
+.bronze {
+  background-color: #F79329;
+}
+
+.medal {
+  display: flex;
+}
+
+.year {
+  width: 78px;
+  font-size: 21px;
+  height: 100%;
+  background-color: #7C2163;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.city {
+  font-size: 21px;
+  font-weight: bold;
+}
+#athlete-container{
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
