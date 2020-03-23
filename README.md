@@ -11,20 +11,23 @@ Showcase Team Canada for the 2020 Olympics
 ```
 
 ## Data Structure
+```
     Routes:
         - index.js
             router.get('/athletes')
             router.get('/sports')
             router.get('/years')
             router.get('/')
-    
+```
+```    
     Views:
         - index.hbs
         - years.hbs
         - athletes.hbs
         - sports
+```
 
-##Links:
+## Links:
 - [Notion](https://www.notion.so/Hackathon-fdfb0e204d8a44f39eaa68fcfb2070ab)
 
 - [Git](https://github.com/annkay108/hackathonCanada)
